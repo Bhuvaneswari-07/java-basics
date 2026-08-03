@@ -1,6 +1,9 @@
+import java.util.Scanner;
 public class ConditionalStatements {
     public static void main(String[] args){
-        int units=250;
+        Scanner input=new Scanner(System.in);
+
+        int units=input.nextInt();
         int bill;
         if (units>100 && units<200) {
             bill = units * 2;
