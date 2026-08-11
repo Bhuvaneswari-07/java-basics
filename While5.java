@@ -8,10 +8,10 @@ public class While5 {
         while (n > 0) {
             int digit = n % 10;
             if (digit % 2 == 0) {
-                ec += 1;
+                ec += digit;
             }
             else{
-                oc=oc+1;
+                oc=oc+digit;
             }
             n = n / 10;
         }
