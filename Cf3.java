@@ -8,6 +8,7 @@ public class Cf3 {
             }
             System.out.println("i:"+i);
             i++;
+
             }
             System.out.println("loop completed");
         }

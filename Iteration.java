@@ -1,4 +1,4 @@
-class Iteration {
+class Break {
     public static void main(String args[]) {
 
         boolean t = true;
@@ -21,4 +21,3 @@ class Iteration {
         }
     }
 }
-
