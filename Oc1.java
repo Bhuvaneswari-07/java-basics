@@ -4,10 +4,12 @@ public class Oc1 {
         int n = 12233344;
         int i = n;
 
+
         while (i > 0) {
 
             int digit1 = i % 10;
-            int temp = n;
+            int temp=n;
+
             int count = 0;
 
             while (temp > 0) {
